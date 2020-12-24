@@ -37,7 +37,6 @@ public class Game {
         
         Scanner scanner = new Scanner(System.in);
         String input = "";
-        
         while (!"n".equalsIgnoreCase(input)) {
             System.out.print("Enter y to get next generation or n to quite: ");
             input = scanner.nextLine();
