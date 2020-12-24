@@ -8,6 +8,7 @@ import org.junit.jupiter.api.Test;
  * @author <K.ShanthiSai 2020501032>
  *
  */
+// to test the the printBoard method in Board class
 public class TestJunitBoard {
 	@Test
 	public void testBoardOne() {
@@ -29,7 +30,8 @@ public class TestJunitBoard {
 		Assertions.assertEquals(sb.toString(), b1.printBoard(b1.createBoard(sizeOfBoard, s)));
 		System.out.println("======Board Test One Executed=====");
 		}
-	
+	// to test the the generateNextGeneration method in Board class
+
 	@Test
 	public void testBoardTwo() {
 		String outputTwo = "...***...\n"
@@ -49,6 +51,8 @@ public class TestJunitBoard {
 		System.out.println("======Board Test Two Executed=====");
 		}
 	
+	// to test the the printBoard method in Board class
+
 	@Test
 	public void testBoardThree() {
 		String outputThree = "..***....\n"

@@ -37,6 +37,8 @@ public class Game {
         
         Scanner scanner = new Scanner(System.in);
         String input = "";
+        // looping to print next generation
+        // @param String type of n or y to quit or print
         while (!"n".equalsIgnoreCase(input)) {
             System.out.print("Enter y to get next generation or n to quite: ");
             input = scanner.nextLine();

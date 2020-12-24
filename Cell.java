@@ -6,6 +6,7 @@
  * @author <K.ShanthiSai 2020501032>
  *
  */
+
 public class Cell {
 	
 	final String ACTIVE_TOKEN = "*";
@@ -48,7 +49,7 @@ public class Cell {
 //	public void setCol(int col) {
 //		this.col = col;
 //	}
-	
+	// return String type token value as declared above based on the boolean value when this method is called
 	public String getCellValue() {
 		if (this.status) {
 			//System.out.print(ACTIVE_TOKEN);

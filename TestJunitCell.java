@@ -11,6 +11,8 @@ import org.junit.jupiter.api.Test;
  */
 public class TestJunitCell {
 
+	// to test the Cell class.
+	//@param integer type of row,column and boolean 
 	@Test
 	public void testCellOne() {
 		Cell c1  = new Cell(0,3,true);
